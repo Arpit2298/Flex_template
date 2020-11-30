@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#mainlayout {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+}
+
+.upperlayout {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    background-image: url('https://images03.nicepage.io/c461c07a441a5d220e8feb1a/6ba6351e480757c3a03abdad/fgd-min.jpg');
+    background-position: 0px -140px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.staffbox {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    bottom: 18%;
+    margin: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.memberbox {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+}
+
+.memberbox h2 {
+    margin-block-start: 0;
+}
+
+.memberbox h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: royalblue;
+}
+
+.memberbox h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    padding: 0 3% 0 3%;
+    color: rgb(116, 116, 116);
+}
+
+.img0 {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-block-end: 0;
+}
+
+.social i {
+    font-size: 120%;
+    padding: 10px;
+    transition: 0.5s;
+    color: rgb(116, 116, 116);
+    padding-top: 5px;
+}
